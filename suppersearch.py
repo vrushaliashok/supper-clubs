@@ -28,7 +28,7 @@ def search_and_extract(query):
 
 if __name__ == "__main__":
     visited_links = {"https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dsupper%252Bclubs%26num%3D12%26hl%3Den%26start%3D0&hl=en&q=EhD9o-ciCsMAEAA62BfAqA_qGOGN0asGIjAS6h9SudvjHRUiWw0qro5Fhr65pAcbD1BlEZm6o918p6it79mSu8atzQl1yvz2nVoyBWpjbmRyWgFD"}
-    search_queries = ['supper clubs', 'charity supper clubs', 'managing supper clubs', 'organizing supper clubs']
+    search_queries = ['supper clubs', 'supper clubs hosted by charities' 'organizing supper clubs']
     for search_query in search_queries:
         st.header(search_query.upper(), divider = "rainbow")
         search_and_extract(search_query)
